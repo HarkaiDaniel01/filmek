@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vígjátékok</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="sajat.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container-fluid">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Főmenü</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="horror.html">Horror</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="anime.html">Anime</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="vigjatek.html">Vígjáték</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="rajzfilm.html">Rajzfilm</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="scifi.html">Sci-fi</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <h1 class="text-center m-5">Vígjátékok</h1>
+
+    <!-- Carousel -->
+    <div id="demo" class="carousel slide w-50 mx-auto" data-bs-ride="carousel">
+
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+        </div>
+
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="kepek/vigjatek_01.jpg" alt="Jóbarátok" title="Jóbarátok" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="kepek/vigjatek_02.jpg" alt="Agymenők" title="Agymenők" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="kepek/vigjatek_03.jpg" alt="Két pasi meg egy kicsi" title="Két pasi meg egy kicsi" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="kepek/vigjatek_04.jpg" alt="Megjött apuci" title="Megjött apuci" class="d-block w-100">
+            </div>
+        </div>
+
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+    <br>
+
+    <div id="oldal" class="m-2 " >
+        <div class="row">
+            <div class="col-sm-3">
+                <button data-bs-toggle="collapse" data-bs-target="#jobaratok">Jóbarátok</button>
+
+                <div id="jobaratok" class="collapse">
+                    Rachel Green, az elkényeztetett, de barátságos nő elmenekül esküvője és gazdag, ám beteljesületlen élete elől, és rátalál gyermekkori barátnőjére, Monica Gellerre, a feszült, de gondoskodó szakácsnőre. Rachel pincérnő lesz a West Village-i Central Perk kávéházban, miután beköltözik Monica Central Perk feletti lakásába, és csatlakozik Monica 20-as éveik közepén járó egyedülálló barátai csoportjához: A korábbi szobatárs Phoebe Buffay, egy excentrikus masszőr és zenész; a szomszéd Joey Tribbiani, egy butácska, de hűséges, feltörekvő színész és nőcsábász; Joey szobatársa Chandler Bing, egy szarkasztikus, önironikus adatfeldolgozó; és Monica idősebb bátyja és Chandler egyetemi szobatársa Ross Geller, egy kedves természetű, de bizonytalan paleontológus.
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <button data-bs-toggle="collapse" data-bs-target="#agymenok">Agymenők</button>
+
+                <div id="agymenok" class="collapse">
+                    A történet a kaliforniai Pasadena városában játszódik. Itt él egy bérelt lakásban a két főszereplő Caltech-tudós: a kísérleti fizikus Leonard Hofstadter és az elméleti fizikus Sheldon Cooper. Két legjobb barátjuk is állandó szereplője a sorozatnak: Howard és Rajesh. Howard gépészmérnök és Rajesh asztrofizikus a Caltechen. Életüket mindjárt az első epizódban felforgatja egy csinos, szőke pincérlány, Penny érkezése a szemben lévő lakásba. A négy zseni gondolkodásmódja és „kockasága” merőben eltér az átlagos életet élő emberek életvitelétől, ami a poénok egyik fő forrásává válik
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <button data-bs-toggle="collapse" data-bs-target="#pasi">Két pasi meg egy kicsi</button>
+
+                <div id="pasi" class="collapse">
+                    A sorozat a két Harper testvér körül forog: Charlie (Charlie Sheen) dúsgazdag agglegény, aki hajszolja az élvezeteket, és reklámdalocskák írásából szedte meg magát. Amikor a csontkovács Alant (Jon Cryer) az exneje, Judith (Marin Hinkle) az utcára teszi, kénytelen a bátyja malibui villájába költözni, ahol hétvégenként fia, Jake (Angus T. Jones) is meglátogatja. A házvezetőnő, a szabadszájú Berta (Conchata Ferrell) eleinte ellenségesen viselkedik az általa csak "kakukknak" hívott kisöccsel, de később elviseli a jelenlétét a házban. A szomszédban lakó nő, Charlie egyik egyéjszakás kalandja, a pszichopata vonásokat is felmutató Rose (Melanie Lynskey) is a ház állandó vendége lesz.
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <button data-bs-toggle="collapse" data-bs-target="#apuci">Megjött apuci</button>
+
+                <div id="apuci" class="collapse">
+                    A történet középpontjában egy jólelkű rendes fickó, Brad Whitaker (Ferrell) áll, aki feleségével, annak kisfiával és kislányával él. Egy nap belép az életükbe a gyerekek vér szerinti apja, Dusty (Wahlberg), hogy fenekestül felforgassa az életüket. A két apa beteges versengésbe kezd, hogy elnyerjék a két gyerek szeretetét. Mindkét gyerek egyszerűen oda van az igazi apjukért, a kemény és menő Dustyért, ám kevésbé a mostohaapjukért. A versengés már nagyon a tetőfokra hág, amikor az anya, Sarah elküldi otthonról Bradet, így Dusty megpróbál közeledni Sarahhoz. Kis idő múlva Dusty nem bírja már az apaságal járó teendőket. Brad és ő a végén segítenek egymásnak az apaság nehézségeiben. Brad és Sarah kibékülnek és lesz egy közös gyerekük. Dusty a szomszédban épít házat és feleségül vesz egy nőt, akinek az előző házasságából van egy gyereke. Innentől már csak egy-két pillanat erejéig felbukkan Dusty mostohalányának igazi apja is, aki még Dusty-nál is nagyobb macsó!
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horror filmek</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="horror.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container-fluid">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Főmenü</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="horror.html">Horror</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="anime.html">Anime</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="vigjatek.html">Vígjáték</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="rajzfilm.html">Rajzfilm</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="scifi.html">Sci-fi</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <h1 class="text-center m-5">Horror filmek</h1>
+
+    <!-- Carousel -->
+    <div id="demo" class="carousel slide w-50 mx-auto" data-bs-ride="carousel">
+
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+        </div>
+
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="kepek/horror_01.jpg" alt="Fűrész" title="Fűrész" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="kepek/horror_02.jpg" alt="Démonok között" title="Démonok között" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="kepek/horror_03.jpg" alt="Halálos kitérő" title="Halálos kitérő" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="kepek/horror_04.jpg" alt="Más világ" title="Más világ" class="d-block w-100">
+            </div>
+        </div>
+
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+    <br>
+
+    <div id="oldal" class="m-2 " >
+        <div class="row">
+            <div class="col-sm-3">
+                <button data-bs-toggle="collapse" data-bs-target="#furesz">Fűrész</button>
+
+                <div id="furesz" class="collapse">
+                    Egy kegyetlen, rejtőzködő és önjelölt erkölcscsősz az élet értékére szeretné megtanítani
+                    embertársait úgy,
+                    hogy lehetetlen helyzetekbe hozza őket. Előre kiszemelt áldozatait, akiket környezetük jó és
+                    tisztességes
+                    embereknek tart, elrabolja, és olyan játékba kényszeríti, amiben saját életük a tét - akár más
+                    életének árán
+                    is. Az elképzelhetetlenül nehéz helyzetekben lévő játékosok dönthetnek, megkísérlik-e a lehetetlent…
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <button data-bs-toggle="collapse" data-bs-target="#demonok">Démonok között</button>
+
+                <div id="demonok" class="collapse">
+                    Ed és Lorraine Warren feljegyzéseiből ismert annak a családnak a története, akik egy világtól elzárt, tanyasi házban éltek, és egyre félelmetesebb paranormális eseményeknek voltak az elszenvedői. Amikor öt gyermekükkel beköltöznek a házba, még nem tudják, hogy ott él egy másik entitás is, ami egyre agresszívebb és rémisztőbb módokon teszi egyértelművé számukra, hogy nem kívánatos vendégek. A fenyegetővé vált helyzetben paranormális ügyek nyomozóihoz fordulnak, azoban úgy tűnik, még ők sem bírnak el a démonikus lénnyel.
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <button data-bs-toggle="collapse" data-bs-target="#kitero">Halálos kitérő</button>
+
+                <div id="kitero" class="collapse">
+                    Chris állásinterjúra indul, mikor bekerül egy dugóba. Hogy elkerülje a késést, úgy dönt, átvág a hegyeken a járatlan kerülőúton. Az úton haladva karambolozik egy másik autóval. Chris és a másik autó utasai együtt indulnak el, hogy segítséget hívjanak. Hamarosan azonban nekik maguknak lesz szükségük segítségre. Furcsa idegenek támadják meg és veszik üldözőbe őket, akik emberi húsra éhesek.
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <button data-bs-toggle="collapse" data-bs-target="#masvilag">Más világ</button>
+
+                <div id="masvilag" class="collapse">
+                    Grace (Nicole Kidman) férje nem tért vissza a második világháborúból, így a nő egyedül él két gyermekével, akik különös betegségben szenvednek – nem érheti őket közvetlen napfény. Az ódon házban szigorú szabályok uralkodnak: mindenhol félhomálynak kell lennie, és nem szabad kinyitni úgy egy ajtót, hogy a mögötte lévőt be ne zárnák. Az asszony felfogad három új szolgálót, érkezésük azonban felborítja a nyugalmas rendet, Grace pedig természetfeletti erők jelenlétére kezd gyanakodni.
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
